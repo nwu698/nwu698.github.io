@@ -10,22 +10,16 @@ interface EducationItem {
 
 const education: EducationItem[] = [
   {
-    degree: 'Bachelor of Science in Computer Science',
-    school: 'University Name',
+    school: 'Yale University Name',
+    degree: 'B.S. in Computer Science and Chemistry',
     period: '2015 - 2019',
     description: 'Focus on software engineering and web development. Dean\'s List multiple semesters.'
   },
-  {
-    degree: 'Relevant Certifications',
-    school: 'Various Online Platforms',
-    period: '2020 - Present',
-    description: 'AWS Certified Solutions Architect, Google Cloud Professional, etc.'
-  }
 ];
 
 export function Education() {
   return (
-    <section id="education" className="container py-24 bg-muted/30">
+    <section id="education" className="container px-6 py-24 bg-muted/30">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl mb-8">Education</h2>
         <div className="space-y-6">
@@ -38,10 +32,10 @@ export function Education() {
                   </div>
                   <div className="flex-1">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-                      <CardTitle>{edu.degree}</CardTitle>
+                      <CardTitle>{edu.school}</CardTitle>
                       <p className="text-sm text-muted-foreground">{edu.period}</p>
                     </div>
-                    <p className="text-muted-foreground mt-1">{edu.school}</p>
+                    <p className="text-muted-foreground mt-1">{edu.degree}</p>
                   </div>
                 </div>
               </CardHeader>

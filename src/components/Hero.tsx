@@ -8,7 +8,7 @@ export function Hero() {
   };
 
   return (
-    <section id="home" className="container flex min-h-[calc(100vh-4rem)] items-center justify-center">
+    <section id="home" className="container px-6 flex min-h-[calc(100vh-4rem)] items-center justify-center">
       <div className="max-w-3xl text-center space-y-6">
         <h1 className="text-4xl md:text-6xl">
           Hi, I'm <span className="text-primary">Your Name</span>
