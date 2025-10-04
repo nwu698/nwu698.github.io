@@ -17,9 +17,10 @@ const education: EducationItem[] = [
   },
 ];
 
+// test comment
 export function Education() {
   return (
-    <section id="education" className="container px-6 py-24 bg-muted/30">
+    <section id="education" className="w-full px-4 md:px-8 lg:px-16 py-24 bg-muted/30">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl mb-8">Education</h2>
         <div className="space-y-6">

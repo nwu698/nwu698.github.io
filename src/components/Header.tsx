@@ -15,7 +15,7 @@ export function Header() {
           onClick={() => scrollToSection('home')}
           className="transition-opacity hover:opacity-70"
         >
-          <span>Your Name</span>
+          <span>Natsume Wu</span>
         </button>
         
         <nav className="hidden md:flex items-center gap-6">

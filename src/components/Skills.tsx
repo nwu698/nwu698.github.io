@@ -27,7 +27,7 @@ const skillCategories: SkillCategory[] = [
 
 export function Skills() {
   return (
-    <section id="skills" className="container px-6 py-24">
+    <section id="skills" className="w-full px-4 md:px-8 lg:px-16 py-24">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl mb-8">Skills</h2>
         <div className="grid md:grid-cols-2 gap-6">

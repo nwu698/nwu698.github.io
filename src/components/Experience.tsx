@@ -35,7 +35,7 @@ const experiences: ExperienceItem[] = [
 
 export function Experience() {
   return (
-    <section id="experience" className="container px-6 py-24">
+    <section id="experience" className="w-full px-4 md:px-8 lg:px-16 py-24">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl mb-8">Experience</h2>
         <div className="space-y-6">

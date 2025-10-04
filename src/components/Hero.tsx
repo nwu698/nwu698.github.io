@@ -8,41 +8,20 @@ export function Hero() {
   };
 
   return (
-    <section id="home" className="container px-6 flex min-h-[calc(100vh-4rem)] items-center justify-center">
-      <div className="max-w-3xl text-center space-y-6">
+    <section id="home" className="w-full px-4 md:px-8 lg:px-16 py-24 flex items-center justify-center">
+      <div className="max-w-4xl text-center space-y-6">
         <h1 className="text-4xl md:text-6xl">
-          Hi, I'm <span className="text-primary">Your Name</span>
+          Hi, I'm <span className="text-primary">Natsume Wu</span>
         </h1>
         <h2 className="text-xl md:text-2xl text-muted-foreground">
-          Your Professional Title | Software Developer | Designer
+          CS and Chemistry @ Yale University
         </h2>
-        <Card>
-          <CardContent className="pt-6">
-            <div className="space-y-4" style={{ textAlign: 'left' }}>
-              <p>
-                Write a compelling introduction about yourself. Talk about your background, 
-                your journey into your field, and what drives you professionally.
-              </p>
-              <p>
-                Highlight your key strengths, your approach to work, and what you bring 
-                to the table. This is your chance to show personality while maintaining 
-                professionalism.
-              </p>
-              <p>
-                You can also mention your interests outside of work, what you're currently 
-                learning, or what goals you're working towards.
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-        <div className="flex gap-4 justify-center flex-wrap">
-          <Button size="lg" onClick={() => scrollToSection('projects')}>
-            View My Work
-          </Button>
-          <Button size="lg" variant="outline" onClick={() => scrollToSection('about')}>
-            Learn More
-          </Button>
-        </div>
+        {/* <Card>
+          <CardContent className="pt-6"> */}
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          I'm a senior at Yale studying computer science and chemistry! I'm passionate about learning and building new things, and I'm currently learning
+          more about full-stack development. Outside of work, I love to cook and eat new food. Please send me new recipes!
+          </p>
       </div>
     </section>
     
