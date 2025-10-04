@@ -1,6 +1,6 @@
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
-// import { About } from './components/About';
+import { About } from './components/About';
 import { Experience } from './components/Experience';
 import { Education } from './components/Education';
 import { Skills } from './components/Skills';
@@ -17,6 +17,7 @@ export default function App() {
         <Experience />
         <Projects />
         <Skills />
+        <About />
       </main>
       <Footer />
     </div>

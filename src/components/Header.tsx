@@ -20,12 +20,6 @@ export function Header() {
         
         <nav className="hidden md:flex items-center gap-6">
           <button 
-            onClick={() => scrollToSection('about')}
-            className="transition-colors hover:text-foreground/80"
-          >
-            About
-          </button>
-          <button 
             onClick={() => scrollToSection('education')}
             className="transition-colors hover:text-foreground/80"
           >
@@ -48,6 +42,12 @@ export function Header() {
             className="transition-colors hover:text-foreground/80"
           >
             Skills
+          </button>
+          <button 
+            onClick={() => scrollToSection('about')}
+            className="transition-colors hover:text-foreground/80"
+          >
+            About Me
           </button>
         </nav>
 
