@@ -1,7 +1,7 @@
 
   # Personal Website
 
-  This is a code bundle for Personal Website. The UI was designed using Figma Make. 
+  This is my personal website. The UI was designed using Figma Make. 
 
   ## Running the code
 

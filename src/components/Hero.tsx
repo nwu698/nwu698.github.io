@@ -20,7 +20,7 @@ export function Hero() {
           <CardContent className="pt-6"> */}
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
           I'm a senior at Yale studying computer science and chemistry! I'm passionate about learning and building new things, and I'm currently learning
-          more about full-stack development. Outside of work, I love to cook and eat new food. Please send me new recipes!
+          more about full-stack development. Outside of work, I love to cook and try new foods.
           </p>
       </div>
     </section>
