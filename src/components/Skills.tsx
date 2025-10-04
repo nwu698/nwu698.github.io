@@ -9,19 +9,23 @@ interface SkillCategory {
 const skillCategories: SkillCategory[] = [
   {
     category: 'Languages',
-    skills: ['JavaScript', 'TypeScript', 'Python', 'Java', 'SQL']
+    skills: ['Python', 'C/C++', 'TypeScript', 'JavaScript']
   },
   {
     category: 'Frontend',
-    skills: ['React', 'Next.js', 'Vue', 'Tailwind CSS', 'HTML/CSS']
+    skills: ['React', 'React Native', 'Next.js', 'HTML/CSS']
   },
   {
     category: 'Backend',
-    skills: ['Node.js', 'Express', 'Django', 'REST APIs', 'GraphQL']
+    skills: ['Node.js', 'Express', 'REST APIs', 'PostGresQL']
   },
   {
-    category: 'Tools & Others',
-    skills: ['Git', 'Docker', 'AWS', 'CI/CD', 'Agile']
+    category: 'Tools & Libraries',
+    skills: ['Git', 'Slurm', 'Numpy', 'Pandas', 'Scipy']
+  },
+  {
+    category: 'Chemistry',
+    skills: ['NMR', 'IR', 'X-Ray Diffraction']
   }
 ];
 

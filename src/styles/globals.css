@@ -135,6 +135,14 @@
   }
 }
 
+@layer base {
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: 1rem;
+  }
+}
+
 html {
   font-size: var(--font-size);
 }

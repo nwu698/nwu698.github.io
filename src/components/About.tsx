@@ -8,8 +8,9 @@ export function About() {
         <h2 className="text-3xl mb-8">About Me</h2>
         <div className="space-y-6">
             <Card>
+                <CardTitle></CardTitle>
                 <CardContent>
-                  <p></p>
+                  <p>Outside of work, I love to create new things.</p>
                 </CardContent>
             </Card>
         </div>
