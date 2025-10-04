@@ -10,7 +10,7 @@ export function About() {
             <Card>
                 <CardTitle></CardTitle>
                 <CardContent>
-                  <p>Outside of work, I love to create new things.</p>
+                  <p>Outside of work, I love to create new things. I've recently gotten into origami and embroidery. I love to cook and bake, and my favorite thing to bake is definitely crossaints.</p>
                 </CardContent>
             </Card>
         </div>

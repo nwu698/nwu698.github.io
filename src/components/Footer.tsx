@@ -14,14 +14,14 @@ export function Footer() {
           
           <div className="flex justify-center gap-6">
             <a 
-              href="mailto:your.email@example.com"
+              href="mailto:natsume.wu@yale.edu"
               className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
             >
               <Mail className="h-5 w-5" />
               <span>Email</span>
             </a>
             <a 
-              href="https://github.com/yourusername"
+              href="https://github.com/nwu698"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
@@ -30,7 +30,7 @@ export function Footer() {
               <span>GitHub</span>
             </a>
             <a 
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/natsumewu/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
